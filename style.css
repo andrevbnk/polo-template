@@ -1,0 +1,675 @@
+@font-face {
+    font-family: Arial Bold;
+    src: url(fonts/Arial Bold.ttf); 
+}
+
+@font-face {
+    font-family: Arial Regular;
+    src: url(fonts/Arial Regular.ttf); 
+}
+
+body {
+    background: #dcd8d8;
+}
+
+.container {
+	width: 1289px;
+    height: 1968px;
+    background-image: url(images/fon.png);
+    padding: 0px;
+}
+
+.left_nav {
+    float: left;
+    margin-left: 60px;
+    margin-top: 35px;
+}
+
+.nav_list {
+    list-style: none;
+    width: 220px;
+    height: 300px;
+    margin-top: 50px;
+    padding: 0px;
+}
+
+.nav_list  #li_pole {
+    width: 10px;
+    height: 26px;
+    background: #ea4599;
+    margin-bottom: 25px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.nav_list  #li_pole:hover {
+    width: 225px;
+}
+
+.nav_list  #li_air {
+    width: 10px;
+    height: 26px;
+    background: #e43041;
+    margin-bottom: 25px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.nav_list  #li_air:hover {
+    width: 225px;
+}
+
+.nav_list  #li_zumba {
+    width: 10px;
+    height: 26px;
+    background: #f15922;
+    margin-bottom: 25px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.nav_list  #li_zumba:hover {
+    width: 225px;
+}
+
+.nav_list  #li_eastern {
+    width: 10px;
+    height: 26px;
+    background: #52c6c7;
+    margin-bottom: 25px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.nav_list  #li_eastern:hover {
+    width: 225px;
+}
+
+.nav_list  #li_hatha {
+    width: 10px;
+    height: 26px;
+    background: #7849ad;
+    margin-bottom: 25px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.nav_list  #li_hatha:hover {
+    width: 225px;
+}
+
+.nav_list  #li_stretching {
+    width: 10px;
+    height: 26px;
+    background: #faa61a;
+    margin-bottom: 25px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.nav_list  #li_stretching:hover {
+    width: 225px;
+}
+
+.nav_list  #li_children {
+    width: 10px;
+    height: 26px;
+    background: #b6ca48;
+    margin-bottom: 25px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.nav_list  #li_children:hover {
+    width: 225px;
+}
+
+.nav_list  li a {
+    display: block;
+    width: 220px;
+    padding-left: 22px;
+    padding-top: 3px;
+    text-decoration: none;
+    color: #333332;
+    font-size: 16px;
+}
+
+.header {
+    width: 908px;
+    height: 142px;
+    background: #000;
+}
+
+.header .social {
+    float: right;
+    position: relative;
+    top: -170px;
+    padding-right: 12px;
+}
+
+.header .social img {
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.header .contact {
+    position: relative;
+    top: -53px;
+    left: 588px;
+}
+
+.header .contact_list {
+    list-style: none;
+    width: 150px;
+    height: 26px;
+}
+
+.header .contact_list li {
+    width: 7px;
+    height: 20px;
+    background: #fff;
+    margin-bottom: 17px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.header .contact_list  li:hover {
+    width: 120px;
+}
+
+.header .contact_list  a:hover {
+    color: #333332;
+}
+
+.header .contact_list  li a {
+    display: block;
+    width: 220px;
+    height: 26px;
+    padding-left: 22px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.header .sport {
+    width: 290px;
+    height: 66px;
+    position: relative;
+    background: #f15922;
+    top: -66px;
+    text-align: center;
+}
+
+.header .sport p {
+    color: #333332;
+    font-size: 18px;
+    padding-top: 22px;
+}
+
+
+.header .adress {
+    width: 767px;
+    height: 100px;
+    background: #fff;
+    position: static;
+    text-align: right;
+}
+
+.header .adress img {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.header .adress p {
+    font-size: 16px;
+    padding-top: 35px;
+    padding-right: 28px;
+    color: #333332;
+}
+
+.main_content {
+    width: 908px;
+    height: 1396px;
+    position: relative;
+    margin-left: 301px;
+}
+
+.introduction {
+    margin-top: 92px;
+    margin-left: 13px;
+    font-size: 16px;
+}
+
+.free {
+    margin-left: 500px;
+    margin-top: -110px;
+    font-size: 24px;
+
+}
+
+.free img {
+    position: relative;
+    left:  30px;
+}
+
+.free a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 40px;
+    top: -60px;
+}
+
+.content p {
+    font-size: 16px;
+    color: #231f20;
+}
+
+.content h3 {
+    font-size: 30px;
+    color: #231f20;
+    padding-top: 10px;
+}
+
+.con_pole_dance {
+    margin-left: 470px;
+    width: 300px;
+    height: 100px;
+}
+
+.con_pole_dance #con_pol {
+    list-style: none;
+}
+
+.con_pole_dance li {
+    width: 44px;
+    height: 46px;
+    background: #e9549f;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.con_pole_dance li:hover {
+    width: 240px;
+}
+
+.con_pole_dance a {
+    display: block;
+    width: 300px;
+    padding-left: 22px;
+    text-decoration: none;
+    color: #231f20;
+}
+
+.con_pole_dance p {
+    padding-left: 26px;
+    padding-top: 5px;
+}
+
+.con_air_gymnastics {
+    width: 450px;
+    height: 150px;
+}
+
+.con_air_gymnastics #con_air {
+    list-style: none;
+    padding-left: 25px;
+}
+
+.con_air_gymnastics li {
+    width: 44px;
+    height: 46px;
+    background: #e74454;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.con_air_gymnastics li:hover {
+    width: 450px;
+}
+
+.con_air_gymnastics a {
+    display: block;
+    width: 450px;
+    padding-left: 22px;
+    text-decoration: none;
+    color: #231f20;
+}
+
+.con_air_gymnastics p {
+    padding-left: 26px;
+    padding-top: 5px;
+}
+
+.con_stretching {
+    margin-top: 70px;
+    width: 300px;
+    height: 150px;
+}
+
+.con_stretching #con_str {
+    list-style: none;
+    padding-left: 25px;
+}
+
+.con_stretching li {
+    width: 44px;
+    height: 46px;
+    background: #faa61a;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.con_stretching li:hover {
+    width: 220px;
+}
+
+.con_stretching a {
+    display: block;
+    width: 450px;
+    padding-left: 22px;
+    text-decoration: none;
+    color: #231f20;
+}
+
+.con_stretching p {
+    padding-left: 26px;
+    padding-top: 5px;
+}        
+
+.con_pilates {
+    margin-top: 60px;
+    width: 320px;
+    height: 150px;
+}
+
+.con_pilates #con_pil {
+    list-style: none;
+    padding-left: 25px;
+}
+
+.con_pilates li {
+    width: 44px;
+    height: 46px;
+    background: #ba87cb;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.con_pilates li:hover {
+    width: 185px;
+}
+
+.con_pilates a {
+    display: block;
+    width: 450px;
+    padding-left: 22px;
+    text-decoration: none;
+    color: #231f20;
+}
+
+.con_pilates p {
+    padding-left: 26px;
+    padding-top: 5px;
+}  
+
+.con_yoga {
+    margin-left: 470px;
+    margin-top: -150px;
+    width: 300px;
+    height: 100px;
+}
+
+.con_yoga #con_yog {
+    width: 300px;
+    height: 100px;
+    list-style: none;
+}
+
+.con_yoga li {
+    width: 44px;
+    height: 46px;
+    background: #8257b2;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.con_yoga li:hover {
+    width: 125px;
+}
+
+.con_yoga a {
+    display: block;
+    width: 300px;
+    padding-left: 22px;
+    text-decoration: none;
+    color: #231f20;
+}
+
+.con_yoga p {
+    padding-left: 26px;
+    padding-top: 5px;
+}
+
+.con_zumba_fitness {
+    margin-top: 60px;
+    margin-left: 470px;
+    width: 500px;
+    height: 120px;
+}
+
+.con_zumba_fitness #con_zum {
+    list-style: none;
+}
+
+.con_zumba_fitness li {
+    width: 44px;
+    height: 46px;
+    background: #ef6634;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.con_zumba_fitness li:hover {
+    width: 305px;
+}
+
+.con_zumba_fitness a {
+    display: block;
+    width: 380px;
+    padding-left: 22px;
+    text-decoration: none;
+    color: #231f20;
+}
+
+.con_zumba_fitness p {
+    padding-left: 26px;
+    padding-top: 5px;
+}
+
+.con_for_children {
+    margin-top: -30px;
+    width: 400px;
+    height: 170px;
+}
+
+.con_for_children #con_for {
+    list-style: none;
+    padding-left: 25px;
+}
+
+.con_for_children li {
+    width: 44px;
+    height: 46px;
+    background: #bacc56;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.con_for_children li:hover {
+    width: 215px;
+}
+
+.con_for_children a {
+    display: block;
+    width: 400px;
+    padding-left: 22px;
+    text-decoration: none;
+    color: #231f20;
+}
+
+.con_for_children p {
+    padding-left: 26px;
+    padding-top: 5px;
+}  
+
+.con_eastern_dance {
+    margin-left: 470px;
+    margin-top: -130px;
+    width: 380px;
+    height: 120px;
+}
+
+.con_eastern_dance #con_eas {
+    list-style: none;
+}
+
+.con_eastern_dance li {
+    width: 44px;
+    height: 46px;
+    background: #60c8c9;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.con_eastern_dance li:hover {
+    width: 355px;
+}
+
+.con_eastern_dance a {
+    display: block;
+    width: 380px;
+    padding-left: 22px;
+    text-decoration: none;
+    color: #231f20;
+}
+
+.con_eastern_dance p {
+    padding-left: 26px;
+    padding-top: 5px;
+}
+
+.form_record {
+    width: 360px;
+    height: 294px;
+    background: #fb7d4f;
+    padding-left: 30px;
+    padding-top: 12px;
+    margin-top: 70px;
+    margin-left: 1px;
+}
+
+.form_record .form-control {
+    position: relative;
+    width: 300px;
+    height: 30px;
+    padding-left: 15px;
+    border-radius: 0%;
+    margin: 0px;
+    top: -20px;
+}
+
+.form_record .form-group {
+    position: relative;
+    margin: 0px;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 6px;
+    top: -4px;
+
+}
+
+.form_record #record {
+    position: relative;
+    margin-top: -4px;
+    width: 300px;
+    height: 65px;
+    font-size: 18px;
+    background: #f15922;
+    border: 1px solid #f15922;
+}
+
+.form_record p {
+    color: #333332;
+}
+
+.google_map {
+    float: right;
+    position: relative;
+    margin-right: 80px;
+    margin-top: 44px;
+}
+
+.open {
+    position: relative;
+    top: 345px;
+    left: 130px;
+
+}
+
+.open h3, p {
+    color: #fff;
+}
+
+.open img {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.end {
+    position: relative;
+    top: 450px;
+    left: 85px;
+}
+
+.end p {
+    color: #333332;
+    font-size: 9px;
+}
+
+.tooltip-inner {
+    white-space: pre;
+}
